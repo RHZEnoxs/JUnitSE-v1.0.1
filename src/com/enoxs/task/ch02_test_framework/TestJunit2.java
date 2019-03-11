@@ -1,5 +1,4 @@
-package com.enoxs.task.test_framework;
-
+package com.enoxs.task.ch02_test_framework;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

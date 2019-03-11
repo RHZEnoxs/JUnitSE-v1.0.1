@@ -1,5 +1,4 @@
-package com.enoxs.task.time_test;
-
+package com.enoxs.task.ch11_time_test;
 import org.junit.Test;
 import org.junit.Ignore;
 import static org.junit.Assert.assertEquals;

@@ -1,4 +1,4 @@
-package com.enoxs.task.api;
+package com.enoxs.task.ch04_api;
 
 import org.junit.Test;
 import junit.framework.AssertionFailedError;

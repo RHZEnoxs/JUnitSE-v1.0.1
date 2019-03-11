@@ -1,5 +1,4 @@
-package com.enoxs.task.test_framework;
-
+package com.enoxs.task.ch02_test_framework;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

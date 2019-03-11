@@ -1,5 +1,4 @@
-package com.enoxs.task.exceptions_test;
-
+package com.enoxs.task.ch12_exceptions_test;
 import org.junit.Test;
 import org.junit.Ignore;
 import static org.junit.Assert.assertEquals;

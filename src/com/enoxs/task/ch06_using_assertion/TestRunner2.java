@@ -1,4 +1,4 @@
-package com.enoxs.task.using_assertion;
+package com.enoxs.task.ch06_using_assertion;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

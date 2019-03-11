@@ -1,5 +1,4 @@
-package com.enoxs.task.time_test;
-
+package com.enoxs.task.ch11_time_test;
 /**
  * Task#11
  * JUnit - Time Test

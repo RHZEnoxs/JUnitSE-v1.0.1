@@ -1,4 +1,4 @@
-package com.enoxs.task.environment_setup;
+package com.enoxs.task.ch01_environment_setup;
 
 import org.junit.Test;
 

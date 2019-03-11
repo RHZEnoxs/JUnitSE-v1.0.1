@@ -1,4 +1,4 @@
-package com.enoxs.task.test_framework;
+package com.enoxs.task.ch02_test_framework;
 
 public class MessageUtil {
     private String message;

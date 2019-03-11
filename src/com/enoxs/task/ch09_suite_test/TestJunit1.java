@@ -1,5 +1,4 @@
-package com.enoxs.task.suite_test;
-
+package com.enoxs.task.ch09_suite_test;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

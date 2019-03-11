@@ -1,4 +1,4 @@
-package com.enoxs.task.api;
+package com.enoxs.task.ch04_api;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;

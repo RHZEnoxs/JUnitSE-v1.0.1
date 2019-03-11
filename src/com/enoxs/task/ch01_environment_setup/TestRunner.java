@@ -1,5 +1,4 @@
-package com.enoxs.task.environment_setup;
-
+package com.enoxs.task.ch01_environment_setup;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;

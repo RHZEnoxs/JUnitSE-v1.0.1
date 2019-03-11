@@ -1,4 +1,4 @@
-package com.enoxs.task.ignore_test;
+package com.enoxs.task.ch10_ignore_test;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

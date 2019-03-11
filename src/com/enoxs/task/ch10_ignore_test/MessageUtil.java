@@ -1,5 +1,4 @@
-package com.enoxs.task.ignore_test;
-
+package com.enoxs.task.ch10_ignore_test;
 /**
  * Task#10
  * JUnit - Ignore Test

@@ -1,5 +1,4 @@
-package com.enoxs.task.ignore_test;
-
+package com.enoxs.task.ch10_ignore_test;
 import org.junit.Test;
 import org.junit.Ignore;
 import static org.junit.Assert.assertEquals;

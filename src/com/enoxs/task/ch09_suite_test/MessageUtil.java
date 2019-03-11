@@ -1,5 +1,4 @@
-package com.enoxs.task.suite_test;
-
+package com.enoxs.task.ch09_suite_test;
 /**
  * Task#9
  * JUnit - Suite Test

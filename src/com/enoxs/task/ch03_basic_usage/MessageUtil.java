@@ -1,4 +1,4 @@
-package com.enoxs.task.basic_usage;
+package com.enoxs.task.ch03_basic_usage;
 
 /**
  * Task#3

@@ -1,4 +1,5 @@
-package com.enoxs.task.exceptions_test;
+package com.enoxs.task.ch12_exceptions_test;
+
 /**
  * Task#12
  * JUnit - Exceptions Test

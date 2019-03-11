@@ -1,4 +1,4 @@
-package com.enoxs.task.execution_procedure;
+package com.enoxs.task.ch07_execution_procedure;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

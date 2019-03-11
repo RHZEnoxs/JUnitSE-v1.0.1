@@ -1,4 +1,4 @@
-package com.enoxs.task.time_test;
+package com.enoxs.task.ch11_time_test;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

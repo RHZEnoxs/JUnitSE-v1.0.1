@@ -1,5 +1,4 @@
-package com.enoxs.task.executing_tests;
-
+package com.enoxs.task.ch08_executing_tests;
 
 
 /**

@@ -1,5 +1,4 @@
-package com.enoxs.task.parameterized_test;
-
+package com.enoxs.task.ch13_parameterized_test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;

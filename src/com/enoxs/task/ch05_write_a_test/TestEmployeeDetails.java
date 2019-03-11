@@ -1,4 +1,4 @@
-package com.enoxs.task.write_a_test;
+package com.enoxs.task.ch05_write_a_test;
 
 import org.junit.Test;
 

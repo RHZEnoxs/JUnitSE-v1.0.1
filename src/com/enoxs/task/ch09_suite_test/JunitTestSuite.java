@@ -1,4 +1,4 @@
-package com.enoxs.task.suite_test;
+package com.enoxs.task.ch09_suite_test;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

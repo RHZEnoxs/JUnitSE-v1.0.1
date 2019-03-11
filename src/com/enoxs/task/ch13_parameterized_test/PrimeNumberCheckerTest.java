@@ -1,5 +1,4 @@
-package com.enoxs.task.parameterized_test;
-
+package com.enoxs.task.ch13_parameterized_test;
 import java.util.Arrays;
 import java.util.Collection;
 

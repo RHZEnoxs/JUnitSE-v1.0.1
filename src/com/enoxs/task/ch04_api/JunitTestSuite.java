@@ -1,4 +1,5 @@
-package com.enoxs.task.api;
+package com.enoxs.task.ch04_api;
+
 import junit.framework.*;
 /**
  * Task#4 - 4

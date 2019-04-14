@@ -1,0 +1,81 @@
+<project name="JunitTest" default="test" basedir=".">
+    <property name="classes_dir" value="classes"/>
+    <property name="src_dir" location="src"/>
+    <property name="src_app" location="src/com/enoxs/app"/>
+    <property name="report_dir" location="report"/>
+    <property name="junit_xml_dir" location="report"/>
+    <property name="run_jar" value="run.jar"/>
+
+    <property name="full-compile" value="true"/>
+
+
+    <!--配置依賴-->
+    <path id="classpath.base"/>
+    <path id="classpath.test">
+        <pathelement location="lib/junit-4.12.jar"/>
+        <pathelement location="lib/hamcrest-core-1.3.jar"/>
+        <pathelement location="${classes_dir}"/>
+        <pathelement location="${src_dir}"/>
+        <path refid="classpath.base"/>
+    </path>
+
+    <!--建置文件夾-->
+    <target name="init">
+        <mkdir dir="${classes_dir}"/>
+        <mkdir dir="${report_dir}"/>
+    </target>
+
+    <!--清除文件-->
+    <target name="clean">
+        <delete verbose="${full-compile}">
+            <fileset dir="${classes_dir}" includes="**/*.class"/>
+        </delete>
+    </target>
+
+    <target name="reset">
+        <delete dir="${classes_dir}"/>
+        <delete file="${run_jar}"/>
+    </target>
+
+    <!--編譯全部-->
+    <target name="compileAll" depends="init,clean">
+        <javac srcdir="${src_dir}" destdir="${classes_dir}"
+               verbose="${full-compile}">
+            <classpath refid="classpath.test"/>
+        </javac>
+    </target>
+
+    <!--編譯單檔-->
+    <target name="compileSingle" depends="init,clean">
+        <javac srcdir="${src_app}" destdir="${classes_dir}"/>
+    </target>
+
+    <!--打包 jar -->
+    <target name="build" depends="compileSingle">
+        <jar jarfile="${run_jar}" basedir="${classes_dir}"/>
+    </target>
+
+    <!--單檔運行-->
+    <target name="run" depends="build">
+        <java classname="com.enoxs.app.AppMain" classpath="${run_jar}"/>
+    </target>
+
+    <target name="test" depends="compileAll">
+        <junit>
+            <classpath refid="classpath.test"/>
+            <formatter type="brief" usefile="false"/>
+            <test name="com.enoxs.task.ch14_plug_with_ant.TestMessageUtil"/>
+        </junit>
+    </target>
+
+    <!--<target name="report">
+
+        <junitreport todir="./reports">
+            <fileset dir="./reports">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="./report/html"/>
+        </junitreport>
+    </target>-->
+
+</project>

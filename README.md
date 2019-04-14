@@ -1,2 +1,7 @@
-# JUnitSE-v1.0.1
-JUnit Project Simple Example Version 1.0.1 ( J Unit - 4.12 )
+# GitSE-v1.0.1
+Git / GitFlow / GitLab Project 
+
+Simple Example Version 1.0.1
+ 
+( Example : JUnitSE-v1.0.1 )
+

@@ -1,20 +1,17 @@
-package com.enoxs.task.reflection_test.demo;
+package com.enoxs.task.reflection_test.example;
 
 import com.enoxs.task.reflection_test.agency.DemoServiceAgency;
-import com.enoxs.task.reflection_test.example.DemoServiceImpl;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.*;
 import static org.junit.Assert.assertTrue;
 
-public class AgencyTest {
+public class DemoServiceTest {
     DemoServiceAgency demoService;
     @Before
     public void setUp() throws Exception {
@@ -67,5 +64,4 @@ public class AgencyTest {
         }
         assertTrue(isActual);
     }
-
 }
